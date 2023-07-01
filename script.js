@@ -1,12 +1,18 @@
 $(document).ready(function () {
 
-    var currentDate = new Date().toISOString().split('T')[0]; // 오늘 날짜를 YYYY-MM-DD 형식으로 가져옴
+    var today = new Date();
+
+    var year = today.getFullYear();
+    var month = String(today.getMonth() + 1).padStart(2, '0');
+    var day = String(today.getDate()).padStart(2, '0');
+
+    var currentDate = `${year}-${month}-${day}`;
+
     $('td[data-date="' + currentDate + '"]').closest('tr').addClass('highlight');
 
     // 테이블 행 클릭 시 modal 창 표시
     $('td').click(function () {
 
-        //var date = $(this).parent('tr').data('date');
         var chapter = $(this).parent('tr').find('td:nth-child(2)').text();
         var book = $(this).closest('.chapter').find('h2').text();
 
