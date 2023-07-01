@@ -1,0 +1,264 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url('SCDream6.otf') format('opentype');
+}
+
+
+.header {
+  background-color: rgb(92, 103, 168);
+  color: white;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'CustomFont', sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+
+td.date {
+    padding-left: 1.5rem;
+    text-align: left;
+}
+
+
+th:first-child,
+td:first-child {
+  border-left: none;
+}
+
+th:last-child,
+td:last-child {
+  border-right: none;
+}
+
+ tr:last-child td {
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+
+th {
+    border: 2px solid #f2f2f2;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: #ff4081;
+    color: #fff;
+    font-size: 0.7rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+td {
+    padding: 0.5rem;
+    text-align: center;
+    border: 2px solid #f2f2f2;
+    background-color: #fff;
+    font-size: 0.7rem;
+    height:1.0rem;
+    /* 데이터 셀에 밑줄 추가 */
+}
+
+
+tbody.chap_1>tr:nth-child(odd) td {
+    background: rgb(207, 213, 234);
+}
+
+tbody.chap_1>tr:nth-child(even) td {
+    background: rgb(233, 235, 245);
+}
+
+tbody.chap_2>tr:nth-child(odd) td {
+    background: rgb(227, 196, 221);
+}
+
+tbody.chap_2>tr:nth-child(even) td {
+    background: rgb(241, 225, 238);
+}
+
+tbody.chap_3>tr:nth-child(odd) td {
+    background: rgb(246, 223, 227);
+}
+
+tbody.chap_3>tr:nth-child(even) td {
+    background: rgb(241, 204, 221);
+}
+
+tbody.chap_4>tr:nth-child(odd) td {
+    background: rgb(245, 216, 203);
+}
+
+tbody.chap_4>tr:nth-child(even) td {
+    background: rgb(249, 231, 222);
+}
+
+tbody.chap_5>tr:nth-child(odd) td {
+    background: rgb(251, 242, 223);
+}
+
+tbody.chap_5>tr:nth-child(even) td {
+    background: rgb(249, 234, 203);
+}
+
+tbody.chap_6>tr:nth-child(odd) td {
+    background: rgb(253, 252, 212);
+}
+
+tbody.chap_6>tr:nth-child(even) td {
+    background: rgb(251, 250, 191);
+}
+
+tbody.chap_1 tr.highlight td {
+    background: linear-gradient(to top right, rgb(122, 99, 182), black) !important;
+    font-weight: bold !important;
+    font-size: 0.9rem;
+    height: 1.0rem; /* 원하는 높이로 설정 */
+    line-height: 1.0rem; /* height와 동일한 값을 설정 */
+    color :white !important;
+}
+
+tbody.chap_2 tr.highlight td {
+    background: linear-gradient(to top right, rgb(185, 107, 170), black) !important;
+    font-weight: bold !important;
+    font-size: 0.9rem;
+    height: 1.0rem; /* 원하는 높이로 설정 */
+    line-height: 1.0rem; /* height와 동일한 값을 설정 */
+    color :white !important;
+}
+
+tbody.chap_3 tr.highlight td {
+    background: linear-gradient(to top right, rgb(221, 127, 145), black) !important;
+    font-weight: bold !important;
+    font-size: 0.9rem;
+    height: 1.0rem; /* 원하는 높이로 설정 */
+    line-height: 1.0rem; /* height와 동일한 값을 설정 */
+    color :white !important;
+}
+
+tbody.chap_4 tr.highlight td {
+    background: linear-gradient(to top right, rgb(230, 158, 125), black) !important;
+    font-weight: bold !important;
+    font-size: 0.9rem;
+    height: 1.0rem; /* 원하는 높이로 설정 */
+    line-height: 1.0rem; /* height와 동일한 값을 설정 */
+    color :white !important;
+}
+
+tbody.chap_5 tr.highlight td {
+    background: linear-gradient(to top right, rgb(240, 202, 126), black) !important;
+    font-weight: bold !important;
+    font-size: 0.9rem;
+    height: 1.0rem; /* 원하는 높이로 설정 */
+    line-height: 1.0rem; /* height와 동일한 값을 설정 */
+    color :white !important;
+}
+
+tbody.chap_6 tr.highlight td {
+    background: linear-gradient(to top right, rgb(249, 247, 148), black) !important;
+    font-weight: bold !important;
+    font-size: 0.9rem;
+    height: 1.0rem; /* 원하는 높이로 설정 */
+    line-height: 1.0rem; /* height와 동일한 값을 설정 */
+    color :white !important;
+}
+
+
+.chap_1_header>th {
+    background: rgb(122, 99, 182);
+}
+
+.chap_2_header>th {
+    background: rgb(185, 107, 170);
+}
+
+.chap_3_header>th {
+    background: rgb(221, 127, 145);
+}
+
+.chap_4_header>th {
+    background: rgb(230, 158, 125);
+    color : rgb(56, 56, 56)
+}
+
+.chap_5_header>th {
+    background: rgb(240, 202, 126);
+    color : rgb(56, 56, 56)
+}
+
+.chap_6_header>th {
+    background: rgb(249, 247, 148);
+    color : rgb(56, 56, 56)
+}
+
+.chapter {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: #f2f2f2;
+    border-radius: 1rem;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.chapter h2 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding : 0.5rem;
+    border-radius: 1rem;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+}
+
+/* 모달 스타일 */
+.modal {
+    display: none; /* 초기에는 숨김 상태로 설정 */
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* 배경에 투명한 검은색을 사용 */
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 1rem;
+    border: 1px solid #888;
+    width: 90%;
+    height : 45rem;
+    max-width: 600px;
+  }
+  
+  .close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
