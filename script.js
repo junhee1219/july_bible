@@ -29,40 +29,17 @@ $(document).ready(function () {
 
     function getBibleChapterContent(book, chapter) { // ex 골로새서 1장
         let filename = book+' '+chapter+".txt"
+        let content ="";
         $.ajax({
             url: filename,
             dataType: 'text',
             success: function(data) {
-              console.log(data); // 읽어온 텍스트 출력 또는 원하는 처리 수행
+                content = data; // 읽어온 텍스트 출력 또는 원하는 처리 수행
             },
             error: function(xhr, status, error) {
               console.log('파일을 읽어오는 중 에러 발생:', error);
             }
           });
-          
-        let content ="";
-        content = readTextFile("file:///C:/bible-schedule/"+filename);
-
         $('#chapter-content').text(content);
-        
     }
 });
-
-function readTextFile(file)
-{
-    var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", file, false);
-    rawFile.onreadystatechange = function ()
-    {
-        if(rawFile.readyState === 4)
-        {
-            if(rawFile.status === 200 || rawFile.status == 0)
-            {
-                var allText = rawFile.responseText;
-                return allText;
-            }
-        }
-    }
-    rawFile.send(null);
-}
-

@@ -261,4 +261,7 @@ tbody.chap_6 tr.highlight td {
     text-decoration: none;
     cursor: pointer;
   }
-  
+  #chapter-content{
+    color : black
+    font-size : 0.7rem;
+  }
