@@ -122,36 +122,43 @@ tbody.chap_1 tr.highlight td {
     background: linear-gradient(to top right, rgb(122, 99, 182), black) !important;
     font-weight: bold !important;
     color: white !important;
+    text-align: center !important;
 }
 
 tbody.chap_2 tr.highlight td {
-    background: linear-gradient(to top right, rgb(185, 107, 170), black) !important;
+    background: linear-gradient(to top right, rgb(122, 99, 182), black) !important;
     font-weight: bold !important;
     color: white !important;
+    text-align: center !important;
 }
+
 
 tbody.chap_3 tr.highlight td {
     background: linear-gradient(to top right, rgb(221, 127, 145), black) !important;
     font-weight: bold !important;
     color: white !important;
+    text-align: center !important;
 }
 
 tbody.chap_4 tr.highlight td {
     background: linear-gradient(to top right, rgb(230, 158, 125), black) !important;
     font-weight: bold !important;
     color: white !important;
+    text-align: center !important;
 }
 
 tbody.chap_5 tr.highlight td {
     background: linear-gradient(to top right, rgb(240, 202, 126), black) !important;
     font-weight: bold !important;
     color: white !important;
+    text-align: center !important;
 }
 
 tbody.chap_6 tr.highlight td {
     background: linear-gradient(to top right, rgb(249, 247, 148), black) !important;
     font-weight: bold !important;
     color: white !important;
+    text-align: center !important;
 }
 
 
