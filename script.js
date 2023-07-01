@@ -29,17 +29,16 @@ $(document).ready(function () {
 
     function getBibleChapterContent(book, chapter) { // ex 골로새서 1장
         let filename = book+' '+chapter+".txt"
-        let content ="";
         $.ajax({
             url: filename,
             dataType: 'text',
             success: function(data) {
-                content = data; // 읽어온 텍스트 출력 또는 원하는 처리 수행
+                $('#chapter-content').text(data);
             },
             error: function(xhr, status, error) {
               console.log('파일을 읽어오는 중 에러 발생:', error);
             }
           });
-        $('#chapter-content').text(content);
+        
     }
 });
