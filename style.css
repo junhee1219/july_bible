@@ -123,6 +123,7 @@ tbody.chap_1 tr.highlight td {
     font-weight: bold !important;
     color: white !important;
     text-align: center !important;
+    padding-left: 0 !important;
 }
 
 tbody.chap_2 tr.highlight td {
@@ -130,6 +131,7 @@ tbody.chap_2 tr.highlight td {
     font-weight: bold !important;
     color: white !important;
     text-align: center !important;
+    padding-left: 0 !important;
 }
 
 
@@ -138,6 +140,7 @@ tbody.chap_3 tr.highlight td {
     font-weight: bold !important;
     color: white !important;
     text-align: center !important;
+    padding-left: 0 !important;
 }
 
 tbody.chap_4 tr.highlight td {
@@ -145,6 +148,7 @@ tbody.chap_4 tr.highlight td {
     font-weight: bold !important;
     color: white !important;
     text-align: center !important;
+    padding-left: 0 !important;
 }
 
 tbody.chap_5 tr.highlight td {
@@ -152,6 +156,7 @@ tbody.chap_5 tr.highlight td {
     font-weight: bold !important;
     color: white !important;
     text-align: center !important;
+    padding-left: 0 !important;
 }
 
 tbody.chap_6 tr.highlight td {
@@ -159,6 +164,7 @@ tbody.chap_6 tr.highlight td {
     font-weight: bold !important;
     color: white !important;
     text-align: center !important;
+    padding-left: 0 !important;
 }
 
 
