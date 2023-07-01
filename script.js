@@ -35,7 +35,7 @@ $(document).ready(function () {
             if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
                 var data = xhr.responseText;
                 let contents = data.replace(/(\S+\s*):/g, (match, p1) => '\n' + p1 + ':')
-                $('#chapter-content').text(contents);
+                $('#chapter-content').html(contents);
             }
         };
         xhr.send();
