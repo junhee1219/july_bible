@@ -33,7 +33,8 @@ $(document).ready(function () {
         xhr.open('GET', filename, true);
         xhr.onreadystatechange = function () {
             if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
-                var contents = xhr.responseText;
+                var data = xhr.responseText;
+                let contents = data.replace(/:\s/g, ":\n");
                 $('#chapter-content').text(contents);
             }
         };
