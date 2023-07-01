@@ -246,6 +246,7 @@ tbody.chap_6 tr.highlight td {
     width: 90%;
     height : 45rem;
     max-width: 600px;
+    overflow-y: auto;
   }
   
   .close {
@@ -262,6 +263,6 @@ tbody.chap_6 tr.highlight td {
     cursor: pointer;
   }
   #chapter-content{
-    color : black
+    color : black;
     font-size : 0.7rem;
   }
