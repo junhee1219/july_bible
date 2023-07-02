@@ -120,51 +120,45 @@ tbody.chap_6>tr:nth-child(even) td {
 
 tbody.chap_1 tr.highlight td {
     background: linear-gradient(to top right, rgb(122, 99, 182), black) !important;
-    font-weight: bold !important;
-    color: white !important;
+    color: yellow !important;
     text-align: center !important;
-    padding-left: 0 !important;
+    padding: 0.5rem;
 }
 
 tbody.chap_2 tr.highlight td {
     background: linear-gradient(to top right, rgb(122, 99, 182), black) !important;
-    font-weight: bold !important;
-    color: white !important;
+    color: yellow !important;
     text-align: center !important;
-    padding-left: 0 !important;
+    padding: 0.5rem;
 }
 
 
 tbody.chap_3 tr.highlight td {
     background: linear-gradient(to top right, rgb(221, 127, 145), black) !important;
-    font-weight: bold !important;
-    color: white !important;
+    color: yellow !important;
     text-align: center !important;
-    padding-left: 0 !important;
+    padding: 0.5rem;
 }
 
 tbody.chap_4 tr.highlight td {
     background: linear-gradient(to top right, rgb(230, 158, 125), black) !important;
-    font-weight: bold !important;
-    color: white !important;
+    color: yellow !important;
     text-align: center !important;
-    padding-left: 0 !important;
+    padding: 0.5rem;
 }
 
 tbody.chap_5 tr.highlight td {
     background: linear-gradient(to top right, rgb(240, 202, 126), black) !important;
-    font-weight: bold !important;
-    color: white !important;
+    color: yellow !important;
     text-align: center !important;
-    padding-left: 0 !important;
+    padding: 0.5rem;
 }
 
 tbody.chap_6 tr.highlight td {
     background: linear-gradient(to top right, rgb(249, 247, 148), black) !important;
-    font-weight: bold !important;
-    color: white !important;
+    color: yellow !important;
     text-align: center !important;
-    padding-left: 0 !important;
+    padding: 0.5rem;
 }
 
 
@@ -237,11 +231,11 @@ tbody.chap_6 tr.highlight td {
 
 .modal-content {
     background-color: #fff;
-    margin: 10% auto;
+    margin: 15% auto;
     padding: 1rem;
-    border: 1px solid #888;
+    border: 1px solid #000000;
     width: 90%;
-    height: 45rem;
+    height: 80%;
     max-width: 600px;
     overflow-y: auto;
 }
@@ -263,4 +257,5 @@ tbody.chap_6 tr.highlight td {
 #chapter-content {
     color: black;
     font-size: 0.7rem;
+    font-family: sans-serif;
 }
