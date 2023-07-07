@@ -5,7 +5,8 @@ self.addEventListener('install', function(event) {
       return cache.addAll([
         'styles.css',
         'script.js',
-        'index.html'
+        'index.html',
+        '/julybible.github.io/'
       ]);
     })
   );
