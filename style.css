@@ -129,7 +129,7 @@ tbody.chap_1 tr.highlight td {
 }
 
 tbody.chap_2 tr.highlight td {
-    background: linear-gradient(to top right, rgb(122, 99, 182), black) !important;
+    background: linear-gradient(to top right, rgb(185, 107, 170), black) !important;
     color: yellow !important;
     text-align: center !important;
     padding: 0.5rem;
